@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Proyecto inicial en HTML" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Post de Facebook</title>
+  </head>
+  <body>
+    <nav class="top-nav" aria-label="Navegacion principal">
+      <div class="nav-brand">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"
+          alt="Facebook"
+          width="36"
+          height="36"
+        />
+        <span>facebook</span>
+      </div>
+
+      <ul class="nav-links">
+        <li>
+          <a href="index.html" class="active"><i class="fa-solid fa-house"></i><span>Home</span></a>
+        </li>
+        <li>
+          <a href="comunidad.html"><i class="fa-solid fa-users"></i><span>Comunidad</span></a>
+        </li>
+        <li>
+          <a href="ayuda.html"><i class="fa-regular fa-circle-question"></i><span>Ayuda</span></a>
+        </li>
+        <li>
+          <a href="perfil.html"><i class="fa-regular fa-user"></i><span>Perfil</span></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header">
+      <button type="button" class="header-icon" aria-label="enviar">
+        <i class="fa-regular fa-paper-plane" aria-hidden="true"></i>
+      </button>
+
+      <div class="search-area">
+        <button type="button" aria-label="buscar">
+          <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+        </button>
+        <input type="search" placeholder="Search" aria-label="Search" />
+      </div>
+      
+      <button type="button" class="header-icon message-icon" aria-label="mensajes">
+        <i class="fa-brands fa-facebook-messenger" aria-hidden="true"></i>
+      </button>
+    </div>
+
+    <div class="shadow-rectangle-workspace"></div>
+
+    <div class="post-header-info">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/b/b9/2023_Facebook_icon.svg"
+        alt="Facebook"
+        width="40"
+        height="40"
+      />
+
+      <p>
+        Santiago Peinador<br />
+        <time datetime="2026-05-06T12:00">May 6, 2026 at 12:00 PM</time>
+        <button type="button" class="mundo" aria-label="publico">
+          <i class="fa-solid fa-earth-americas" aria-hidden="true"></i>
+        </button>
+      </p>
+
+      <span class="post-options" aria-label="opciones">&bull;&bull;&bull;</span>
+    </div>
+
+    <div class="post-description">
+      <p>Este es mi nuevo post en Facebook. Espero que todos esten muy bien.</p>
+    </div>
+
+    <div class="post-image">
+      <img
+        src="https://i0.wp.com/nochesdemedia.com/wp-content/uploads/2017/07/official-facebook-logo-slide.jpg?fit=1200%2C675&ssl=1"
+        alt="Imagen del post de Facebook"
+      />
+    </div>
+
+    <div class="post-reactions">
+      <div class="reaction-icons">
+        <img src="assets/icons/reaction-love.svg" alt="Corazon blanco con fondo rojo" />
+        <img src="assets/icons/reaction-like.svg" alt="Manita blanca con fondo azul" />
+        <img src="assets/icons/reaction-wow.svg" alt="Carita sorprendida" />
+      </div>
+
+      <p>Santiago Peinador and 291 others</p>
+      <p>55 comments</p>
+    </div>
+
+    <div class="post-actions">
+      <div class="action-like">
+        <img src="assets/icons/action-like.svg" alt="Icono de like" class="action-icon" />
+        <span>Like</span>
+      </div>
+
+      <div class="action-comment">
+        <img src="assets/icons/action-comment.svg" alt="Icono de comment" class="action-icon" />
+        <span>Comment</span>
+      </div>
+
+      <div class="action-share">
+        <img src="assets/icons/action-share.svg" alt="Icono de share" class="action-icon" />
+        <span>Share</span>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <p>Facebook is a registered trademark of Meta Platforms, Inc.</p>
+
+      <nav aria-label="Footer legal links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Cookies</a>
+        <a href="ayuda.html">Help Center</a>
+        <a href="perfil.html">Contact</a>
+      </nav>
+
+      <small>Copyright © 2026 Facebook. All rights reserved.</small>
+    </footer>
+
+  </body>
+</html>
